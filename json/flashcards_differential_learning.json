@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the fundamental pedagogical assumption of Differential Learning (DL) proposed by Wolfgang Sch\u00f6llhorn?",
+    "answer": "The assumption is that learning is stabilized through fluctuations (noise) and that no two movements are ever identical, therefore training should avoid repetition and embrace continuous variation."
+  },
+  {
+    "question": "Contrast the 'Traditional' (Repetition-based) motor learning approach with the 'Differential Learning' approach.",
+    "answer": "Traditional approaches seek to minimize 'noise' through repetitions of an 'ideal' model, whereas DL maximizes 'noise' by constantly changing movement tasks to force the system to find its own optimal solutions."
+  },
+  {
+    "question": "Explain Nikolai Bernstein's concept of 'repetition without repetition.'",
+    "answer": "It refers to the idea that even when performing the same task, the underlying motor commands and coordination patterns vary continuously, meaning the goal is repeated, but the movement process is unique each time."
+  },
+  {
+    "question": "How does Synergetics (Systems Theory) apply to the theory of Differential Learning?",
+    "answer": "Synergetics suggests that complex systems (like a human moving) undergo phase transitions and self-organization when pushed by fluctuations, which DL induces to accelerate the transition to more skilled states."
+  },
+  {
+    "question": "What neurobiological change is often associated with the 'Stochastic Resonance' effect in motor learning?",
+    "answer": "The optimization of signal detection and neural sensitivity through the addition of a specific amount of noise, leading to more robust neural representations of the motor task."
+  }
+]

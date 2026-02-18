@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the primary advantage of Federated Learning (FL) in the context of mobile/wireless networks?",
+    "answer": "FL allows for decentralized AI training where raw data stays on the local device, preserving privacy and reducing the need to transmit massive datasets over the network backhaul."
+  },
+  {
+    "question": "Explain the 'Communication-Computation Trade-off' in Federated Learning.",
+    "answer": "It is the balance between performing more local training iterations (reducing communication rounds) and the energy/latency costs of those local computations on battery-constrained devices."
+  },
+  {
+    "question": "What is 'Model Aggregation' in a Federated Learning architecture?",
+    "answer": "The process where a central server (e.g., a Base Station) collects the weight updates or gradients from multiple local clients and combines them (e.g., via FedAvg) to update the global model."
+  },
+  {
+    "question": "Identify three critical resource management challenges when deploying FL over wireless channels.",
+    "answer": "1. User selection (scheduling); 2. Bandwidth/Power allocation; 3. Computational resource constraints at the edge."
+  },
+  {
+    "question": "How does 'Channel Noise' affect the convergence of Federated Learning updates?",
+    "answer": "Channel noise and interference can corrupt the parameter transmissions, leading to slower convergence or higher error rates in the aggregated global model if not properly managed through power control or retransmissions."
+  }
+]

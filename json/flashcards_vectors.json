@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is a 'Vector' in the context of Large Language Models (LLMs)?",
+    "answer": "A vector is a mathematical representation of information (words, sentences, or images) as a series of numbers in a high-dimensional space, where similar meanings are positioned closer together."
+  },
+  {
+    "question": "What is an 'Embedding' and why is it crucial for semantic search?",
+    "answer": "An embedding is a specific type of vector produced by a model that captures the semantic meaning of text. It allows search systems to find relevant content based on meaning rather than just matching exact keywords."
+  },
+  {
+    "question": "Explain the concept of 'Cosine Similarity' in vector search.",
+    "answer": "It is a mathematical measure used to determine how similar two vectors are by calculating the cosine of the angle between them; a value of 1 indicates the vectors are identical in direction (highly similar)."
+  },
+  {
+    "question": "What is RAG (Retrieval-Augmented Generation) and how do vectors facilitate it?",
+    "answer": "RAG is a technique that gives LLMs access to external, up-to-date data. Vectors are used to index this data and perform 'semantic retrieval' to find the most relevant context for a user's prompt."
+  },
+  {
+    "question": "What is the purpose of a 'Vector Database' (e.g., Pinecone, pgvector)?",
+    "answer": "A vector database is specialized for storing, indexing, and efficiently searching through millions of high-dimensional vectors, enabling sub-second retrieval for AI applications."
+  }
+]

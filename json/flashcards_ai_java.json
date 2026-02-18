@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the primary function of building specific AI agents in the context of the Model Context Protocol (MCP)?",
+    "answer": "The primary function is to enable these agents to interact with external tools and data sources in a standardized, controlled way, effectively giving the AI 'hands' to perform operations like file management or database queries."
+  },
+  {
+    "question": "Explain the role of the 'Task Boundary' tool in an agentic coding workflow.",
+    "answer": "The Task Boundary tool is used to communicate progress through a structured UI, marking the start, status updates, and summary of specific work stages (Planning, Execution, Verification) within a complex task."
+  },
+  {
+    "question": "What is the significance of the Google AI Studio (Gemini) API in the Flashcard Study App?",
+    "answer": "The Gemini API is used to analyze uploaded textbook content and generate high-quality, concise Q/A flashcards based on key concepts and technical definitions."
+  },
+  {
+    "question": "Identify two modern Java features mentioned in the context of Spring Boot 3.x development.",
+    "answer": "Two modern Java features mentioned are Virtual Threads (Project Loom) and advanced pattern matching."
+  },
+  {
+    "question": "How does the Flashcard Study App handle API key security?",
+    "answer": "It uses environment variables stored in a `.env` file, which is excluded from version control via `.gitignore`, ensuring the key is not hardcoded or exposed publicly."
+  }
+]

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Study App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Flashcard Study App</h1>
+            <p>Generate AI-powered flashcards from your textbook chapters</p>
+        </header>
+
+        <main>
+            <!-- Step 1: Upload -->
+            <section id="upload-section" class="card">
+                <h2>Step 1: Upload Content</h2>
+                <p>Upload a textbook chapter in XML or HTML format.</p>
+                <div class="upload-controls">
+                    <input type="file" id="xml-file" accept=".xml,.html,.htm">
+                    <button id="upload-btn" class="btn primary">Upload and Parse</button>
+                </div>
+                <div id="parser-output" class="hidden">
+                    <h3>Parsed Sections:</h3>
+                    <ul id="sections-list"></ul>
+                </div>
+            </section>
+
+            <!-- Step 2: Configure & Generate -->
+            <section id="generate-section" class="card">
+                <h2>Step 2: Generate Flashcards</h2>
+                <div class="generate-controls">
+                    <div class="input-group">
+                        <label for="card-count">Number of Flashcards:</label>
+                        <select id="card-count">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50" selected>50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="model-select">AI Model:</label>
+                        <select id="model-select">
+                            <option value="gemini-1.5-flash" selected>Gemini 1.5 Flash (Fast)</option>
+                            <option value="gemini-1.5-pro">Gemini 1.5 Pro (High Quality)</option>
+                        </select>
+                    </div>
+                    <button id="generate-btn" class="btn success hidden">Generate Flashcards</button>
+                </div>
+                <div id="generation-status" class="status hidden"></div>
+            </section>
+
+            <!-- Step 3: Study Interface -->
+            <section id="study-section" class="card">
+                <h2>Step 3: Study</h2>
+                <div id="flashcard-container" class="hidden">
+                    <div class="card-viewer">
+                        <div id="flashcard" class="flashcard">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div class="card-label">Question</div>
+                                    <p id="question-text"></p>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div class="card-label">Answer</div>
+                                    <p id="answer-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="study-nav">
+                        <button id="prev-btn" class="btn secondary">← Previous</button>
+                        <button id="flip-btn" class="btn primary">Flip Card</button>
+                        <button id="next-btn" class="btn secondary">Next →</button>
+                    </div>
+                    
+                    <div id="card-counter" class="counter">Card 0 of 0</div>
+                    
+                    <div class="shortcuts-hint">
+                        <p><small>Tip: Use <strong>Spacebar</strong> to flip, and <strong>Arrow Keys</strong> to navigate.</small></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="export-controls">
+                        <h3>Export Deck:</h3>
+                        <button id="export-json" class="btn">Export as JSON</button>
+                        <button id="export-csv" class="btn">Export as CSV</button>
+                    </div>
+                </div>
+                <div id="no-cards-msg" class="placeholder">
+                    <p>Unlock study mode by uploading a file and generating flashcards.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Flashcard Study App - Local Implementation</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

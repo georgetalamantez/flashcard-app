@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Describe the embryology of the pancreas at the 4th-5th week of gestation.",
+    "answer": "The pancreas develops from dorsal and ventral endodermal outgrowths from the foregut. The dorsal bud forms the upper head, body, and tail, while the ventral bud forms the lower head and uncinate process."
+  },
+  {
+    "question": "What is 'Annular Pancreas' and what is its developmental origin?",
+    "answer": "It is a rare congenital anomaly where a ring of pancreatic tissue encircles the duodenum. It results from the failure of the ventral pancreatic bud to rotate properly during development."
+  },
+  {
+    "question": "Explain the three phases of pancreatic secretion control.",
+    "answer": "1. Cephalic phase (vagal stimulation via sight/smell); 2. Gastric phase (distension and gastrin); 3. Intestinal phase (dominant phase mediated by Secretin for water/HCO3 and CCK for enzymes)."
+  },
+  {
+    "question": "Identify the primary hormones involved in the biliary system's response to a meal.",
+    "answer": "Cholecystokinin (CCK) induces gallbladder contraction and Sphincter of Oddi relaxation, while Secretin stimulates hepatic bile secretion high in bicarbonate."
+  },
+  {
+    "question": "What is the significance of Pancreatic Stellate Cells (PSCs) in chronic inflammation?",
+    "answer": "In their activated state, PSCs become myofibroblast-like and are the primary producers of the excessive extracellular matrix (fibrosis) seen in chronic pancreatitis and pancreatic cancer."
+  },
+  {
+    "question": "What are the components of the Todani classification for Choledochal Cysts?",
+    "answer": "Type I: Common bile duct dilation; Type II: Diverticulum of CBD; Type III: Choledochocele; Type IV: Multiple intra/extrahepatic cysts; Type V: Caroli's disease (intrahepatic only)."
+  }
+]
